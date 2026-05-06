@@ -1,0 +1,84 @@
+# =============================================================================
+# Raw dataset (CGMacros) — NOT redistributed in this repo.
+# Download it from PhysioNet: https://physionet.org/content/cgmacros/1.0.0/
+# See data/README.md for setup instructions.
+# =============================================================================
+CGM/
+data/raw/
+data/cgmacros*/
+*.zip
+
+# Word lock files (e.g., ~$file.docx)
+~$*
+
+# .docx versions of documents (we ship the PDF only)
+*.docx
+
+# =============================================================================
+# Python
+# =============================================================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# =============================================================================
+# Jupyter
+# =============================================================================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+profile_default/
+ipython_config.py
+
+# =============================================================================
+# IDEs / OS
+# =============================================================================
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =============================================================================
+# Logs and caches
+# =============================================================================
+*.log
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# =============================================================================
+# Models / large artifacts (uncomment if you start saving them)
+# =============================================================================
+# *.pkl
+# *.joblib
+# *.h5
+# *.pt
+# *.onnx
